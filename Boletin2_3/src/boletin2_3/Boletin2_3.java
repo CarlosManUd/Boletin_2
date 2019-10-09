@@ -30,7 +30,7 @@ public class Boletin2_3 {
         billetes20 = cantidad20*20;
         billetes5 = cantidad5*5;
         
-        int total = billetes100+billetes20+billetes5+ cantidad1;
+        float total = billetes100+billetes20+billetes5+ cantidad1;
         
         System.out.println("Esta es la cantidad total de billetes: "+total);
     }
